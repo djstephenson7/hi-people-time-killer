@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+https://imagemagick.org/script/download.php
 
 ## Development
 
@@ -32,4 +32,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hipeoplechallenge.
+Bug reports and pull requests are welcome on GitHub at https://github.com/djstephenson7/hipeoplechallenge.
