@@ -8,6 +8,16 @@ TODO: Delete this and the text above, and describe your gem
 
 Add this line to your application's Gemfile:
 
+This project has a couple of external dependencies that it requires to work. The instructions can be found here: https://imagemagick.org/script/download.php
+
+If you have Homebrew, run these commands|:
+
+```ruby
+brew install imagemagick
+
+brew install ghostscript
+```
+
 ```ruby
 gem 'hipeoplechallenge'
 ```
@@ -22,8 +32,14 @@ Or install it yourself as:
 
 ## Usage
 
-https://imagemagick.org/script/download.php
-'https://www.freeimages.com/'
+Use through your command line, by running 'irb' or or 'pry' in the root directory.
+
+```ruby
+require './lib/web_scraper.rb'
+web_scraper = WebScraper.new('YOUR URL HERE')
+web_scraper.scrape_data
+web_scraper.to_thumbnail
+```
 
 ## Development
 
