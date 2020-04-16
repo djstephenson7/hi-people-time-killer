@@ -23,6 +23,7 @@ Or install it yourself as:
 ## Usage
 
 https://imagemagick.org/script/download.php
+'https://www.freeimages.com/'
 
 ## Development
 
